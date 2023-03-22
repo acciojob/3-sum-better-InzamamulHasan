@@ -9,7 +9,7 @@ function threeSum(arr, target) {
 				let s=arr[i]+arr[j]+arr[k];
 				let dif=Math.abs(target-s);
 				if(dif<ch){
-					ch=df;
+					ch=dif;
 					sum=s;
 					c++;
 				}
